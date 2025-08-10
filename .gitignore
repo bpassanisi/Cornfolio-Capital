@@ -1,2 +1,55 @@
 __pycache__/
 *.pyc
+
+# ===========================================
+# Cornfolio Capital - Privacy Protection
+# ===========================================
+
+# Personal trading data and configurations
+config/personal/
+data/portfolios/*.csv
+data/market_data/
+logs/trading/
+logs/system/
+
+# Analysis and reports (contains your strategies)
+analysis/reports/
+analysis/performance/
+ai/analysis/
+
+# API keys and credentials
+api_keys.txt
+.env
+*.key
+credentials.json
+
+# Personal portfolio files
+*portfolio_update.csv
+*trade_log.csv
+fidelity_*.csv
+cornfolio_*.csv
+
+# Backup files (may contain sensitive data)
+backup/
+*.backup
+*.bak
+
+# Personal notes and strategies
+notes/
+strategies/
+personal_*.md
+
+# System logs that might contain account info
+*.log
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS system files
+.DS_Store
+
